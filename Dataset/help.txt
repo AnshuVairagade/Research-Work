@@ -1,0 +1,32 @@
+This folder contains only the subset dataset used during the BERT fine tuning.
+For the research work we have used following dataset as listed below.
+
+@ Speaker Diarization : 
+--------------------------
+This dataset contains the different real life talking scenario like meetings, interview and podcast, etc.
+
+1) VoxCeleb2
+2) Vox Converse
+3) TOEFL English Classes
+
+
+@ BERT Fine Tuning : 
+-----------------------
+Using conversation from audio data we created below dataset format used to fine tune bert.
+
+The dataset is stored in a single CSV file where each row represents one utterance from a conversation.
+
+Columns:
+conversation_id → Unique ID for each conversation
+utterance_id → Order of the utterance within the conversation
+speaker → Speaker label (e.g., A, B, client, SPK_0)
+text → Utterance content
+label → Sentiment label (positive, neutral, negative)
+start, end → (Optional) Timestamps from diarization
+
+This structure allows the model to:
+Reconstruct conversations using conversation_id.
+Encode speaker information via speaker.
+Use context by looking at multiple utterances in sequence.
+
+This dataset captures multi-speaker conversational context, enabling the model to learn not only from the utterance text but also from who is speaking and what was said previously. Such structure is crucial for tasks like dialogue sentiment analysis, where meaning often depends on speaker roles and conversational history.

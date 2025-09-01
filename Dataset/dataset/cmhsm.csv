@@ -1,0 +1,103 @@
+Start,End,Speaker,Text
+0 days 00:00:00,0 days 00:00:04,SPEAKER 2," Hi everyone, I'm Tom, and two days ago I wrecked my voice."
+0 days 00:00:04,0 days 00:00:10,SPEAKER 2," I'll try my best to be comprehensible today, but as always, if you're having trouble understanding my spoken words,"
+0 days 00:00:11,0 days 00:00:17,SPEAKER 2," feel free to turn on subtitles, those usually have the full script I use in there and should be pretty accurate."
+0 days 00:00:18,0 days 00:00:24,SPEAKER 1," But anyways, today's topic is going to be heated beds that has been one of the most requested topics,"
+0 days 00:00:24,0 days 00:00:27,SPEAKER 1, so today I'm going to tell you all about them.
+0 days 00:00:27,0 days 00:00:31,SPEAKER 1," So heated beds have one very obvious main purpose,"
+0 days 00:00:31,0 days 00:00:36,SPEAKER 2, and that is to get the surface of the print bed up to temperature where the print will stick to it better
+0 days 00:00:36,0 days 00:00:43,SPEAKER 1, and as such will not come loose from the unavoidable warping forces that the layer by layer printing process
+0 days 00:00:43,0 days 00:00:49,SPEAKER 1," generates. But heated bed has a second side effect that can help reduce warping at the source,"
+0 days 00:00:49,0 days 00:00:55,SPEAKER 2, and that's because the radiated heat will keep the print warm. You see that the largest factor in
+0 days 00:00:55,0 days 00:01:00,SPEAKER 2," how much a print is going to warp is roughly speaking, the difference between the plastics glass"
+0 days 00:01:00,0 days 00:01:07,SPEAKER 2, transition temperature and the cooled down temperature during a print. So either you have PLA with a
+0 days 00:01:07,0 days 00:01:13,SPEAKER 2," low glass transition temperature of 50 degrees Celsius, and let it cool down to 20 degrees with an"
+0 days 00:01:13,0 days 00:01:19,SPEAKER 2," unheated bed, or you use ABS with a glass transition temperature of about 100 degrees Celsius,"
+0 days 00:01:19,0 days 00:01:21,SPEAKER 1, and just make sure it doesn't cool down as far.
+0 days 00:01:22,0 days 00:01:30,SPEAKER 1," The extreme case of this would be a heated chamber which keeps your ABS prints at 60 to 80 degrees Celsius,"
+0 days 00:01:30,0 days 00:01:33,SPEAKER 1, so you'd end up with the same 30 degree temperature difference.
+0 days 00:01:33,0 days 00:01:39,SPEAKER 2," Heat chambers or at least enclosed printers are extremely nice for the high 10 plastics,"
+0 days 00:01:39,0 days 00:01:45,SPEAKER 2," but that's an entirely different topic. Now because of those two effects, I still haven't found a"
+0 days 00:01:45,0 days 00:01:51,SPEAKER 1, plastic that is not easier to print with a heated bed. I mean sure you can print PLA on blue tape and
+0 days 00:01:51,0 days 00:01:57,SPEAKER 1," some of the soft plastics onto glass on such a room temperature, but even for PLA having the option"
+0 days 00:01:57,0 days 00:02:02,SPEAKER 1, of heating the bed surface and printing straight to glass is just so much more convenient than having
+0 days 00:02:02,0 days 00:02:08,SPEAKER 1, to pry your prints for blue tape. Of course heated beds are absolutely necessary for some plastics
+0 days 00:02:08,0 days 00:02:15,SPEAKER 1," like ABS which can be printed onto a cold surface, but that involves a whole new level of clutches."
+0 days 00:02:16,0 days 00:02:22,SPEAKER 1," As far as the heated beds themselves go, there are two basic types that you can get. One is the"
+0 days 00:02:22,0 days 00:02:28,SPEAKER 2," classic PCB heater originally designed by Joseph Prusha, which was the first heated bed that you could"
+0 days 00:02:28,0 days 00:02:35,SPEAKER 2," buy. Along with the Prusha mantle, it basically established the mid-size form factor of a 200 by"
+0 days 00:02:35,0 days 00:02:41,SPEAKER 1, 200 millimeter build platform. You can still get heater PCBs that are very close to the original
+0 days 00:02:41,0 days 00:02:47,SPEAKER 2, design. Some of them can now be switched from 12 to 24 volts. Others have different form factors
+0 days 00:02:47,0 days 00:02:52,SPEAKER 1," like the around-advanced intended for delta printers, but there's two issues I personally have with"
+0 days 00:02:52,0 days 00:02:58,SPEAKER 2, heater PCBs and those are one. It can be pretty hard to get them to make good contact with whatever
+0 days 00:02:58,0 days 00:03:05,SPEAKER 2," sheet material you put in them, which becomes necessary because, too, they have a tendency to warp"
+0 days 00:03:05,0 days 00:03:11,SPEAKER 2," and polish each, especially the cheaper and thinner ones. As the control applies power to the bed,"
+0 days 00:03:11,0 days 00:03:17,SPEAKER 2, the side with the heating tracks heats up much faster than the opposite side. PCB expands on
+0 days 00:03:17,0 days 00:03:24,SPEAKER 2," the hotter side and in the process of that, bows the entire pin surface. In fact, one of my first big"
+0 days 00:03:24,0 days 00:03:29,SPEAKER 2, mysteries with my back then Prusha II was that the second layer just wouldn't stick onto the
+0 days 00:03:29,0 days 00:03:35,SPEAKER 2," first one. And as it turned out, because I was reducing the heated bed temperature for all layers,"
+0 days 00:03:35,0 days 00:03:40,SPEAKER 2," but the first one, the heated bed would shut off for a while until it reached that cooler temperature"
+0 days 00:03:40,0 days 00:03:46,SPEAKER 2, and the guested bowed away from the nozzle and basically left a huge gap between the first and second
+0 days 00:03:46,0 days 00:03:52,SPEAKER 1," layer. So the other option, which I like a lot more, or heater mats, that you can stick onto the bottom"
+0 days 00:03:52,0 days 00:03:58,SPEAKER 2," of your print sheet, in my case aluminum because I also use an inductive probe for bed auto adjustment."
+0 days 00:03:59,0 days 00:04:05,SPEAKER 2," You can get these heated from a few resellers in Europe or the Americas, but you can also get them"
+0 days 00:04:05,0 days 00:04:12,SPEAKER 2," directly from the guys that make them at any size, voltage and power rating. For example, I had this one"
+0 days 00:04:12,0 days 00:04:20,SPEAKER 2," made as a 150 millimeter square with 150 watts, which will take it up to 150 degrees Celsius."
+0 days 00:04:21,0 days 00:04:28,SPEAKER 2, More than enough for even printing polycarbonate. I also have a 300 millimeter round bed incoming that
+0 days 00:04:28,0 days 00:04:34,SPEAKER 1, is made to run at 230 volts mains power since shoving 600 watts through a power supply is kind of
+0 days 00:04:34,0 days 00:04:41,SPEAKER 1," pointless and it's pretty hard to wire everything properly at those currents anyways. But please,"
+0 days 00:04:41,0 days 00:04:45,SPEAKER 1," if you are using mains power anywhere, be careful, make sure everything is unplugged before you"
+0 days 00:04:45,0 days 00:04:51,SPEAKER 2, start working on the wiring and ground your print the frame through the protective earth rail.
+0 days 00:04:52,0 days 00:04:56,SPEAKER 2," I've heard from a couple folks that the silicon heater mats tend to give up after a while,"
+0 days 00:04:56,0 days 00:05:02,SPEAKER 2, but that you haven't had any problem with mine so far. I've been torturing it quite a bit.
+0 days 00:05:03,0 days 00:05:08,SPEAKER 2," If you're wondering what kind of power you need for a certain size, it's relatively simple."
+0 days 00:05:08,0 days 00:05:15,SPEAKER 1, You need at least about 0.6 watts for every square centimeter of heated area to get to 120 degrees
+0 days 00:05:15,0 days 00:05:21,SPEAKER 2, for ABS or about 0.2 watts for that same area to get to about 60 degrees for PLA.
+0 days 00:05:21,0 days 00:05:27,SPEAKER 2," But if you want to save some time during heat-up, you can also go up to 1 watt per square centimeter."
+0 days 00:05:28,0 days 00:05:33,SPEAKER 2, Just make sure your electronics in handling. Most electronics are limited to 10 or 15 amps of
+0 days 00:05:33,0 days 00:05:38,SPEAKER 2," output current, which means that they can just about power a pressure PCB heater at 12 volts"
+0 days 00:05:38,0 days 00:05:43,SPEAKER 2, or something a bit more powerful at 24. With respect to your board and make sure none of the
+0 days 00:05:43,0 days 00:05:48,SPEAKER 2," transistors or connect this burn-up when you're heating it up for the first time. Now, as far as sheet"
+0 days 00:05:48,0 days 00:05:54,SPEAKER 1," material for heated beds goes, again, there are two main choices. You can either use glass and clip"
+0 days 00:05:54,0 days 00:06:00,SPEAKER 1, that to a heater PCB or use aluminum in the same fashion or directly stick a heater mat to it.
+0 days 00:06:00,0 days 00:06:06,SPEAKER 1," I prefer aluminum, cheap, it won't break ever, it will distribute the heat from the heater bed"
+0 days 00:06:06,0 days 00:06:12,SPEAKER 1," extremely evenly, and it will ensure that the surface temperature is exactly what you want it to be."
+0 days 00:06:13,0 days 00:06:18,SPEAKER 1," And you can directly use it with an inductive sensor. For smaller beds, flatness doesn't matter"
+0 days 00:06:18,0 days 00:06:24,SPEAKER 2," as much, but for larger ones you can get mild, plain aluminum sheets at almost any size and thickness."
+0 days 00:06:24,0 days 00:06:30,SPEAKER 2," This guy, for example, will end up on top of that aforementioned 300 millimeter heater mat in the service"
+0 days 00:06:30,0 days 00:06:35,SPEAKER 2," board, which I hope I'll get to build over Christmas, but it looks like the ballins for it aren't going"
+0 days 00:06:35,0 days 00:06:41,SPEAKER 2," to arrive on time. Anyways, the other material you can use is glass sheet and that is pretty much"
+0 days 00:06:41,0 days 00:06:47,SPEAKER 2," always perfectly flat due to the way it's made. Many people use borosilicate glass, which is"
+0 days 00:06:47,0 days 00:06:53,SPEAKER 2," similar to pyrexane made to resist temperature shocks, but I found that regular 3 millimeter"
+0 days 00:06:53,0 days 00:07:01,SPEAKER 1, window glass works just as well. Even when I heated up one side of my double heated bed to 120 degrees
+0 days 00:07:01,0 days 00:07:07,SPEAKER 2," and left the other side cold, it never flinched. Two millimeters is too thin and has a huge risk of"
+0 days 00:07:07,0 days 00:07:13,SPEAKER 2," breaking just from the forces, it sometimes takes to pry a print off, so I wouldn't recommend using glass"
+0 days 00:07:13,0 days 00:07:19,SPEAKER 1," that thin. Also, if you're planning on using a heater mat instead of a PCB, I definitely recommend"
+0 days 00:07:20,0 days 00:07:25,SPEAKER 2," the heater mats are handmade and can be quite irregular in their heat output, which aluminum"
+0 days 00:07:25,0 days 00:07:31,SPEAKER 2," helps smooth out, but also if you stuck it to a glass sheet and break that, well you can probably"
+0 days 00:07:31,0 days 00:07:38,SPEAKER 2," trash the heater too. On top of whatever sheet material you may choose to use, you can use different"
+0 days 00:07:38,0 days 00:07:45,SPEAKER 2," toppings as well, but for many plastics you don't have to. Many uses print directly onto clean,"
+0 days 00:07:45,0 days 00:07:50,SPEAKER 2," and this is important, absolutely clean glass, made plastics will directly stick to that."
+0 days 00:07:51,0 days 00:07:56,SPEAKER 2," Then there's captain and PET tape, which are nice for ABS and other higher temp plastics,"
+0 days 00:07:57,0 days 00:08:02,SPEAKER 1," and then there is the glue section of glue stick, diluted pv8 glue and hairspray,"
+0 days 00:08:02,0 days 00:08:08,SPEAKER 1," each of those having their own unique properties, and as always, what might work for everybody else"
+0 days 00:08:08,0 days 00:08:14,SPEAKER 2," might just not work for you, so there's definitely some trial and error involved, but there's always"
+0 days 00:08:14,0 days 00:08:20,SPEAKER 2," some way it works out. Most of the surface choices lose their stickiness when they cool down, so"
+0 days 00:08:20,0 days 00:08:26,SPEAKER 2," prints are going to be much easier to remove, or pop right off if you wait for the bed to cool down"
+0 days 00:08:26,0 days 00:08:33,SPEAKER 2," after a print has finished. One last thing you want to talk about is thermistors in heated beds,"
+0 days 00:08:33,0 days 00:08:39,SPEAKER 1," or for heated beds, because they are always somewhat awkward to place if you want a good reading."
+0 days 00:08:39,0 days 00:08:44,SPEAKER 2," If you tape one to the bottom of the heated bed, the top might end up being much cooler than the"
+0 days 00:08:44,0 days 00:08:49,SPEAKER 1," spot you're actually measuring. If you put it on top of the heated bed, you obviously have the risk"
+0 days 00:08:49,0 days 00:08:54,SPEAKER 2," of running into it with your printer's nozzle. Either way, you should really make sure that it is"
+0 days 00:08:54,0 days 00:08:59,SPEAKER 2," well insulated from the air around it, and gets good contact with the spot you're trying to measure."
+0 days 00:09:00,0 days 00:09:06,SPEAKER 2," Some neuro PCBs have a spot in the center to place a thermistor, which is actually a really decent"
+0 days 00:09:06,0 days 00:09:12,SPEAKER 2," place to put it. Silicon heaters on the other hand can be configured with a thermistor built in,"
+0 days 00:09:12,0 days 00:09:18,SPEAKER 2," but I found that it reports temperatures that are way too low. Either way, if you have a thermistor"
+0 days 00:09:18,0 days 00:09:22,SPEAKER 2," in a spot that isn't exactly where you need to read the temperature, I'd at least recommend waiting"
+0 days 00:09:22,0 days 00:09:27,SPEAKER 2," a bit after heating up before you start to print, that way the heat has some time to soak through"
+0 days 00:09:27,0 days 00:09:33,SPEAKER 2," the entire construction you have on there. Or if you have an aluminum bed, you can also use the"
+0 days 00:09:33,0 days 00:09:40,SPEAKER 2, E3DV6 method and clamp a thermistor into the aluminum plate. That way you'll get exactly the
+0 days 00:09:40,0 days 00:09:45,SPEAKER 2, temperature the bed actually is it. So I guess that's got to do it for today. If you have any questions
+0 days 00:09:45,0 days 00:09:50,SPEAKER 2," left, please feel free to leave a comment and I'll try to answer those. I'll see you next week"
+0 days 00:09:50,0 days 00:09:56,SPEAKER 2," until then. I wish you all a politically correct, happy holidays. I don't care much about what you"
+0 days 00:09:56,0 days 00:10:00,SPEAKER 1," do or don't do over Christmas, but everybody gets a few days off and that's gotta be worth something."
