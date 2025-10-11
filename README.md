@@ -37,27 +37,8 @@ of multi-speaker conversations.
 
 ## 📂 Project Structure
 
-    project-root/
-    │── data/                     # Audio, transcripts, CSVs
-    │── diarization/              # Speaker diarization pipeline
-    │   ├── embedding_extraction.py
-    │   ├── clustering_methods.py
-    │   ├── visualization.py
-    │
-    │── nlp/                      # Speaker-aware BERT implementation
-    │   ├── dataset_loader.py
-    │   ├── model_speaker_aware.py
-    │   ├── train.py
-    │   ├── evaluate.py
-    │
-    │── metrics/                  # Novel evaluation metrics
-    │   ├── speaker_context_score.py
-    │   ├── comparison_metrics.py
-    │
-    │── notebooks/                # Jupyter notebooks for experiments
-    │── results/                  # Outputs (confusion matrices, training curves, etc.)
-    │── requirements.txt
-    │── README.md
+ <img width="443" height="651" alt="image" src="https://github.com/user-attachments/assets/4ddff686-007a-46f5-80ee-63719e83f41f" />
+
 
 ------------------------------------------------------------------------
 
