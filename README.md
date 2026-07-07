@@ -1,6 +1,8 @@
 # Speaker-Aware NLP for Diarized Conversations
+
 **Access the IEEE paper at below link :**
 https://ieeexplore.ieee.org/document/11189566
+<img width="895" height="632" alt="image" src="https://github.com/user-attachments/assets/54723d99-805b-4541-af4d-46f540958568" />
 
 ## 📌 Project Overview
 
